@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+	<abortOnConfigurationError>${solr.config.abortOnConfigurationError}</abortOnConfigurationError>
+	<dataDir>${solr.config.dataDir}</dataDir>
+
+	<requestHandler name="standard" class="solr.SearchHandler" default="true"/>
+	<requestHandler name="/admin" class="solr.admin.AdminHandlers" />
+</config>
