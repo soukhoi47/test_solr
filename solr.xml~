@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<solr persistent="false">
+<cores adminPath="/admin/cores">
+<core name="produits" instanceDir="cores/produits" />
+<core name="example" instanceDir="cores/example" />
+</cores>
+</solr>
